@@ -46,8 +46,9 @@ h2{
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
+    
     
 
 }
@@ -56,4 +57,17 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
 
+}
+#stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, rgb(209, 82, 59));
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
